@@ -24,7 +24,7 @@ For a more fully-fledged functional library, consider [LanguageExt](https://gith
 
 ## Working with the code samples
 
-The code samples use .NET Standard 1.6 and .NET Core 2.0, and should compile and run on all major OS's
+The code samples use .NET Standard 2.0 and .NET Core 2.1, and should compile and run on all major OS's
 via the `dotnet` CLI.
 
 ### Prerequisites
@@ -79,7 +79,7 @@ You'll often need to import `LaYumba.Functional` in the REPL. In C# Interactive,
 this can be done like so:
 
 ```csharp
-#r "functional-csharp-code\LaYumba.Functional\bin\Debug\netstandard1.6\LaYumba.Functional.dll"
+#r "functional-csharp-code\LaYumba.Functional\bin\Debug\netstandard2.0\LaYumba.Functional.dll"
 ```
 
 The path above may not work for you, in which case use an absolute path to the dll,
